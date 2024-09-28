@@ -1,7 +1,8 @@
 // noinspection JSFileReferences, JSUnresolvedReference, JSCheckFunctionSignatures
 
-import defaultRouter from '../default/router.js'
 import { createRouter, createWebHistory } from 'vue-router'
+
+import defaultRouter from '../default/router.js'
 
 /*
  | ---------------------------------------------------------------------------
