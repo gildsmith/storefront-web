@@ -1,0 +1,17 @@
+@config "../tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply h-full;
+}
+
+body {
+    @apply flex min-h-full;
+}
+
+#app {
+    @apply flex-1 min-h-full;
+}
